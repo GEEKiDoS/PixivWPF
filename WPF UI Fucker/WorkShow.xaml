@@ -1,0 +1,28 @@
+﻿<Grid x:Class="WPF_UI_Fucker.WorkShow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:md="clr-namespace:MaterialDesignThemes.Wpf;assembly=MaterialDesignThemes.Wpf"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        materialDesign:TransitionAssist.DisableTransitions="True"
+             xmlns:local="clr-namespace:WPF_UI_Fucker"
+             mc:Ignorable="d" Height="237" Width="334">
+    <Rectangle Fill="Black" Opacity="0.45" Margin="0,5.336,0,-5.336">
+        <Rectangle.Effect>
+            <BlurEffect/>
+        </Rectangle.Effect>
+    </Rectangle>
+    <Grid Background="White" Unloaded="Unloaded">
+        <Image x:Name="image" Margin="0,0,0,65" Source="无标题.png" Stretch="UniformToFill"/>
+        <Button x:Name="button"  Click="button_Click"  Style="{DynamicResource MaterialDesignFloatingActionAccentButton}" HorizontalAlignment="Right" Height="48" Margin="0,0,28,40.83" Width="48" RenderTransformOrigin="1.299,0.881" VerticalAlignment="Bottom">
+            <md:PackIcon Kind="Fullscreen"  Height="24" Width="24" HorizontalAlignment="Center" VerticalAlignment="Center" BorderThickness="0,0,1,0"></md:PackIcon>
+        </Button>
+        <TextBlock x:Name="textBlock" Height="22" Margin="52.998,0,86.335,30.666" TextWrapping="Wrap" Text="Workname" VerticalAlignment="Bottom" FontSize="14"/>
+        <TextBlock x:Name="textBlock_Copy" Height="22" Margin="54.347,0,18.986,8.666" TextWrapping="Wrap" Text="Artist" VerticalAlignment="Bottom" FontSize="11" Foreground="#FF595959"/>
+        <Button x:Name="likebutton"  Style="{DynamicResource MaterialDesignToolButton}" HorizontalAlignment="Left" Height="44" Margin="6.996,0,0,10.995" Width="42.667" RenderTransformOrigin="1.299,0.881" VerticalAlignment="Bottom" Click="Star">
+            <md:PackIcon Name="star" Kind="Star"  Height="24" Width="24" HorizontalAlignment="Center" VerticalAlignment="Center" BorderThickness="0,0,1,0"></md:PackIcon>
+        </Button>
+    </Grid>
+    
+</Grid>

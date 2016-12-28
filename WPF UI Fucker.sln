@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF UI Fucker", "WPF UI Fucker\WPF UI Fucker.csproj", "{4F87E740-D2C5-484F-9472-7B0A92223FB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebImageList", "..\..\..\..\Desktop\WebImageList\WebImageList.csproj", "{FBD11A5E-9250-4CBB-9CC5-903A18EE129C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F87E740-D2C5-484F-9472-7B0A92223FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F87E740-D2C5-484F-9472-7B0A92223FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F87E740-D2C5-484F-9472-7B0A92223FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F87E740-D2C5-484F-9472-7B0A92223FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD11A5E-9250-4CBB-9CC5-903A18EE129C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD11A5E-9250-4CBB-9CC5-903A18EE129C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD11A5E-9250-4CBB-9CC5-903A18EE129C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD11A5E-9250-4CBB-9CC5-903A18EE129C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
